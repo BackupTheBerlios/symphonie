@@ -13,6 +13,14 @@ package fr.umlv.groupey;
  * Window - Preferences - Java - Code Style - Code Templates
  */
 public class Test2 {
+	
+	public void bonjour(){
+		
+	System.out.println("bonjour");	
+	
+	}
+	
+	
 
 	public static void main(String[] args) {
 	}
