@@ -1,0 +1,16 @@
+/**
+ * Created on 25 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.groupa;
+
+
+public class AnotherClass {
+/**
+ * 
+ * @param args
+ */
+    public static void main(String[] args) {
+        System.out.println("another class");
+    }
+}

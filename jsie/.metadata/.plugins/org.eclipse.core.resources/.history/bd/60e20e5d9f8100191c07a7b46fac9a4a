@@ -1,0 +1,8 @@
+package fr.umlv.jbucks.model.impl.util;
+
+import java.util.*;
+
+import fr.umlv.jbucks.model.*;
+import fr.umlv.jbucks.model.event.PropertyEvent;
+import fr.umlv.jbucks.model.impl.*;
+

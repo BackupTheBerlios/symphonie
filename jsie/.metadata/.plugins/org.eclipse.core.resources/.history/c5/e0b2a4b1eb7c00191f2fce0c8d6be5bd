@@ -1,0 +1,55 @@
+package fr.umlv.learning.db;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.swing.JOptionPane;
+/*
+ * Created on 10 févr. 2005
+ *@author Julien
+ */
+
+/**
+ * @author Julien
+ */
+public class DataBaseExample {
+
+    public static void main(String[] args) {
+        
+        if(args.length != 3){
+            JOptionPane.showMessageDialog(null,"no such element on command line","Error",JOptionPane.ERROR_MESSAGE);
+            throw new IllegalArgumentException();
+        }
+        
+        Statement state = null;
+        ResultSet resultSet = null;
+        
+        try {
+            
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+            
+            Connection conn = DriverManager.getConnection("jdbc:mysql://jsie@sqletud.univ-mlv.fr/jsie_db","jsie","Yeyfao1q");
+            System.out.println("** connexion established **");
+            
+            state = conn.createStatement();
+            System.out.println("** statement created **");
+            
+            String query = "SELECT * FROM auth_tab"; 
+            resultSet = state.executeQuery(query);
+            
+            conn.close();
+            JOptionPane.showMessageDialog(null,"Work on DataBase is a success","work is over",JOptionPane.INFORMATION_MESSAGE);
+            
+        } catch (InstantiationException e) {
+            System.err.println("cannot instanciate sql Driver");
+        } catch (IllegalAccessException e) {
+            System.err.println("illegal access exception");
+        } catch (ClassNotFoundException e) {
+            System.err.println("Driver class not found");
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null,e.getMessage(),"Error",JOptionPane.ERROR_MESSAGE);
+        }
+    }
+}

@@ -1,0 +1,145 @@
+/**
+ * Created on 18 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+
+import java.util.Collection;
+
+
+import java.util.Iterator;
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Command {
+
+    /**
+     * 
+     * @uml.property name="list" multiplicity="(0 1)"
+     */
+    private final Map list;
+
+    /**
+     * 
+     * @uml.property name="client" multiplicity="(0 1)"
+     */
+    private final Person client;
+
+    
+    public Command(Map list, Person client) {
+        this.list = list;
+        this.client = client;
+    }
+
+    public Command(Person client){
+        list = new HashMap();
+        this.client = client;
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public Map getList() {
+        return list;
+    }
+
+    /**
+     * 
+     * @uml.property name="client"
+     */
+    public Person getClient() {
+        return client;
+    }
+
+    /**
+     *  
+     * @uml.property name="article"
+     * @uml.associationEnd inverse="command:fr.umlv.td3.Article" multiplicity="(1 -1)"
+     */
+    private Collection article;
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public void setArticle(java.util.Collection value) {
+        article = value;
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public Iterator articleIterator() {
+        return article.iterator();
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public boolean addArticle(fr.umlv.td3.Article element) {
+        return article.add(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public boolean removeArticle(fr.umlv.td3.Article element) {
+        return article.remove(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public boolean isArticleEmpty() {
+        return article.isEmpty();
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public void clearArticle() {
+        article.clear();
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public boolean containsArticle(fr.umlv.td3.Article element) {
+        return article.contains(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public boolean containsAllArticle(Collection elements) {
+        return article.containsAll(elements);
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public int articleSize() {
+        return article.size();
+    }
+
+    /**
+     * 
+     * @uml.property name="article"
+     */
+    public fr.umlv.td3.Article[] articleToArray() {
+        return (fr.umlv.td3.Article[]) article
+            .toArray(new fr.umlv.td3.Article[article.size()]);
+    }
+
+}

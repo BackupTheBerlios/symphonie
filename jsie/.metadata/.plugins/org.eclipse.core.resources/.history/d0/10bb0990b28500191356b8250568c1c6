@@ -1,0 +1,15 @@
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.java.network.tp7;
+
+import junit.framework.TestCase;
+
+
+public class Exo1Test extends TestCase {
+
+    public void testDecaleADroite() {
+    }
+
+}

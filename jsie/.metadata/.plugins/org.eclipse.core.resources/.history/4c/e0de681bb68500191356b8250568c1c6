@@ -1,0 +1,41 @@
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+import java.util.Enumeration;
+
+public class Exo1 {
+
+    public static byte decaleADroite(final byte b,final int n) {
+       
+        return new Integer((b & 0xFF)>>n).byteValue();
+    }
+    
+    public static void displayNetworkInterface() throws SocketException,UnknownHostException{
+       System.out.println("network interface of the current machine : ");
+        for(Enumeration<NetworkInterface> e = NetworkInterface.getNetworkInterfaces() ; e.hasMoreElements();){
+            NetworkInterface nif = e.nextElement();
+            for(Enumeration<InetAddress> e2 = nif.getInetAddresses() ; e2.hasMoreElements();)
+                System.out.println(e2.nextElement());
+            
+        }
+        
+        System.out.println("machine's local address : "+InetAddress.getLocalHost().getHostAddress());
+        System.out.println("Network interface associated : "+NetworkInterface.getByInetAddress(InetAddress.getLocalHost()).getDisplayName());
+    }
+    
+    public static void displayReachableAddress(){
+        
+    }
+    
+    public static void main(String[] args) {
+       
+        try{
+            displayNetworkInterface();
+        }catch(Exception e){}
+    }
+}

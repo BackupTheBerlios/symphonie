@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchHistory>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;database_example build.xml.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;eclipsedemo build.xml.launch&quot;/&gt;&#10;" mode="run"/>
+<lastLaunch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;database_example build.xml.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo4.launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo3.launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo1 (1).launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo1.launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;DataBaseExample (1).launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;DataBaseExample.launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;GroupTest.launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;CalcTest.launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;ASMExample.launch&quot;/&gt;&#10;" mode="debug"/>
+<lastLaunch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo4.launch&quot;/&gt;&#10;" mode="debug"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo4.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo3.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo1 (1).launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo1.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;DataBaseExample (1).launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;DataBaseExample.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;GroupTest.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;CalcTest.launch&quot;/&gt;&#10;" mode="run"/>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;ASMExample.launch&quot;/&gt;&#10;" mode="run"/>
+<lastLaunch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Exo4.launch&quot;/&gt;&#10;" mode="run"/>
+</launchHistory>

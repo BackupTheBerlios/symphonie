@@ -1,0 +1,15 @@
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+
+public class Exo4 {
+
+    public static void main(String[] args) {
+        DatagramSocket socket = new DatagramSocket(new InetSocketAddress());
+    }
+}

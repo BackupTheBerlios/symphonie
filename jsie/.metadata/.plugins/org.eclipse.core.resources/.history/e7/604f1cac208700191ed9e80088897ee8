@@ -1,0 +1,12 @@
+/**
+ * Created on 25 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.groupa;
+
+
+public class A {
+
+    public static void main(String[] args) {
+    }
+}

@@ -1,0 +1,30 @@
+import java.net.InetAddress;
+
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+
+public class Exo3 {
+
+    public static void displaySpecificity(String host) throws Throwable{
+        InetAddress ia = InetAddress.getByName(host);
+        System.out.println("host name : "+host+" & canonical name : "+ia.getCanonicalHostName()+"\naddress : "+ia.getHostAddress());
+        System.out.println("loopback address : "+ia.isLoopbackAddress());
+        System.out.println("multicast address : "+ia.isMulticastAddress());
+        System.out.println("private address : "+ia.isSiteLocalAddress());
+        System.out.println();
+    }
+    
+    public static void displayAllSpecificity(String host) throws Throwable{
+        System.out.println("** host "+host+" **");
+        for(InetAddress ia_ : InetAddress.getAllByName(host))
+            displaySpecificity(ia_.getCanonicalHostName());
+    }
+    
+    public static void main(String[] args) {
+        try{
+           displayAllSpecificity("www.lemonde.fr");
+        }catch(Throwable t){t.printStackTrace();}	
+    }
+}

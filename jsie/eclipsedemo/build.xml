@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project default="all">
+	
+  <property environment="env"/>
+  <property name="eclipsedemo.dir" value="."/>
+	
+  <property name="src.dir" value="${eclipsedemo.dir}/src"/>
+  <property name="classes.dir" value="${eclipsedemo.dir}/classes"/>
+  <property name="doc.dir" value="doc"/>
+	
+  <target name="all" depends="compile">
+  </target>  
+	
+  <target name="compile">
+  	<javac destdir="${classes.dir}"
+  		   source="1.5">
+      <src path="${src.dir}"/>
+      <include name="fr/umlv/eclipsedemo/**"/>
+    </javac>
+  </target>
+	
+  <target name="jar" depends="compile">
+  	<mkdir dir="${lib.dir}"/>
+  	<jar destfile="${lib.dir}/corosol.jar"
+         basedir="${classes15.dir}"
+         includes="fr/umlv/corosol/**"
+         excludes="fr/umlv/corosol/test/**, fr/umlv/corosol/example/**"
+    />
+  </target>
+	
+  <target name="java" depends="compile">
+  	<java classname="fr.umlv.eclipsedemo.Main"
+          fork="true"
+          failonerror="true">
+  	  <classpath>
+      	<pathelement path="${classes.dir}"/>
+  	  </classpath>
+    </java>
+  </target>
+  <target name="javadoc" depends="compile">
+  	<javadoc
+  	           destdir="${doc.dir}/api"
+  	           author="true"
+  	           version="true"
+  	           use="true"
+  	           windowtitle="Creates api">
+  		<packageset dir="src" defaultexcludes="yes">
+  		<include name="fr/**"/>
+  		</packageset>
+  	</javadoc>
+  </target>
+	<target name="clear">
+		<delete dir="${doc.dir}" quiet="true" failonerror="false"/>
+	</target>
+</project>

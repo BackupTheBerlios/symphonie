@@ -1,0 +1,31 @@
+/**
+ * Created on 18 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+
+
+import java.util.List;
+
+
+public class Command {
+
+    private final List list;
+    
+    private final Person client;
+    
+    public List getList(){
+        return list;
+    }
+    
+    public Person getClient(){
+        return client;
+    }
+
+    public Command(List list, Person client) {
+        this.list = list;
+        this.client = client;
+    }
+
+}

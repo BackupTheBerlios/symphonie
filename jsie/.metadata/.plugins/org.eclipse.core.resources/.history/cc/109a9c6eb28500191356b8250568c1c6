@@ -1,0 +1,23 @@
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.java.network.tp7;
+
+public class Exo1 {
+
+    public static byte decaleADroite(final byte b,final int n){
+        
+        int b1 = b+0;
+        
+        b1 = b1 & 0xFF;
+       
+        return new Integer(b1>>n).byteValue();
+    }
+    
+    public static void main(String[] args) {
+        byte b = 32;
+        
+        System.out.println(b+">>"+2+" = "+decaleADroite(b,2));
+    }
+}

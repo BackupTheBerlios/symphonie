@@ -1,0 +1,77 @@
+/**
+ * Created on 18 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Command {
+
+    /**
+     * 
+     * @uml.property name="list" multiplicity="(0 1)"
+     */
+    private final Map list;
+
+    /**
+     * 
+     * @uml.property name="client" multiplicity="(0 1)"
+     */
+    private final Person client;
+
+    
+    public Command(Map list, Person client) {
+        this.list = list;
+        this.client = client;
+    }
+
+    public Command(Person client){
+        list = new HashMap();
+        this.client = client;
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public Map getList() {
+        return list;
+    }
+
+    /**
+     * 
+     * @uml.property name="client"
+     */
+    public Person getClient() {
+        return client;
+    }
+
+    /**
+     *  
+     * @uml.property name="article"
+     * @uml.associationEnd inverse="command:fr.umlv.td3.Article" multiplicity="(0 1)"
+     */
+    private Article article;
+
+    /**
+     *  
+     * @uml.property name="article"
+     */
+    public Article getArticle() {
+        return article;
+    }
+
+    /**
+     *  
+     * @uml.property name="article"
+     */
+    public void setArticle(Article article) {
+        this.article = article;
+    }
+
+}
