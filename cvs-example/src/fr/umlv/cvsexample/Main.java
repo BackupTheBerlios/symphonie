@@ -9,6 +9,10 @@ package fr.umlv.cvsexample;
  *
  */
 public class Main {
+	
+	public void titi(){
+	}
+
   public static void main(String[] args) {
     System.out.println("hello CVS");
   }
