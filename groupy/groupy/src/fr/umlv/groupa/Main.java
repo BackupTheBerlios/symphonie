@@ -1,0 +1,13 @@
+/**
+ * Created on 25 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.groupa;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("salut jsie");
+    }
+}

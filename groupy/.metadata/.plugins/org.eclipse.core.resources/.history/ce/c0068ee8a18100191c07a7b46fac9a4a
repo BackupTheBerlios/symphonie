@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="fr.umlv.jbucks.model+fr.umlv.jbucks.model.event+fr.umlv.jbucks.model.impl+fr.umlv.jbucks.model.impl.util+fr.umlv.jbucks.test" size="858,752" id="." metadata="uml2-1.0" initialized="true" scrolledY="52" tag="1000" key="3230303431303236207464332F6A736965">
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.1/@sourceConnections.2" name="fr.umlv.jbucks.model.impl.util" location="363,10" size="648,834" id="fr.umlv.jbucks.model.impl.util">
+    <children xsi:type="editmodel:ClassEditModel" name="ModifiableSet" location="257,401" size="127,193" id="fr.umlv.jbucks.model.impl.util/ModifiableSet" runTimeClassModel="iterator(),size(),contains(Ljava.lang.Object;),ModifiableSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Set;),add(Ljava.lang.Object;),remove(Ljava.lang.Object;),firePropertyEvent(Ljava.lang.Object;I),containsAll(Ljava.util.Collection;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,144">
+        <children xsi:type="editmodel:MethodEditModel" name="ModifiableSet" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#ModifiableSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Set;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="add" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#add(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="contains" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#contains(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="containsAll" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#containsAll(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="firePropertyEvent" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#firePropertyEvent(Ljava.lang.Object;I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="iterator" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#iterator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="remove" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#remove(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="size" id="fr.umlv.jbucks.model.impl.util/ModifiableSet#size()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSet->fr.umlv.jbucks.model.impl/EventManagerImpl" source="//@children.0/@children.0" target="//@children.1/@children.9" targetEnd="//@children.0/@children.0/@sourceConnections.0/@children.2" label="//@children.0/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="127,57" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,178"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSet->fr.umlv.jbucks.model/Item" source="//@children.0/@children.0" target="//@children.4/@children.0" targetEnd="//@children.0/@children.0/@sourceConnections.1/@children.2" label="//@children.0/@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="127,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSet->fr.umlv.jbucks.model/BuckFactory" source="//@children.0/@children.0" target="//@children.4/@children.6" targetEnd="//@children.0/@children.0/@sourceConnections.2/@children.2" label="//@children.0/@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="117,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSet->fr.umlv.jbucks.model.event/PropertyEvent" source="//@children.0/@children.0" target="//@children.3/@children.0" targetEnd="//@children.0/@children.0/@sourceConnections.3/@children.2" label="//@children.0/@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="127,183" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.7/@sourceConnections.0 //@children.1/@children.8/@sourceConnections.1" name="BucksCollections" location="482,50" size="146,229" id="fr.umlv.jbucks.model.impl.util/BucksCollections" runTimeClassModel="modifiableCollection(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Collection;),unmodifiableSortedSet(Ljava.util.SortedSet;),modifiableSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Set;),modifiableSortedSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.SortedSet;),isUnmodifiable(Ljava.util.Collection;),unmodifiableList(Ljava.util.List;),unmodifiableCollection(Ljava.util.Collection;),modifiable(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Collection;),modifiableList(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.List;),unmodifiableSet(Ljava.util.Set;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="123,180">
+        <children xsi:type="editmodel:MethodEditModel" name="isUnmodifiable" id="fr.umlv.jbucks.model.impl.util/BucksCollections#isUnmodifiable(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modifiable" id="fr.umlv.jbucks.model.impl.util/BucksCollections#modifiable(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modifiableCollection" id="fr.umlv.jbucks.model.impl.util/BucksCollections#modifiableCollection(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modifiableList" id="fr.umlv.jbucks.model.impl.util/BucksCollections#modifiableList(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.List;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modifiableSet" id="fr.umlv.jbucks.model.impl.util/BucksCollections#modifiableSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Set;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="modifiableSortedSet" id="fr.umlv.jbucks.model.impl.util/BucksCollections#modifiableSortedSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.SortedSet;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="unmodifiableCollection" id="fr.umlv.jbucks.model.impl.util/BucksCollections#unmodifiableCollection(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="unmodifiableList" id="fr.umlv.jbucks.model.impl.util/BucksCollections#unmodifiableList(Ljava.util.List;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="unmodifiableSet" id="fr.umlv.jbucks.model.impl.util/BucksCollections#unmodifiableSet(Ljava.util.Set;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="unmodifiableSortedSet" id="fr.umlv.jbucks.model.impl.util/BucksCollections#unmodifiableSortedSet(Ljava.util.SortedSet;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/BucksCollections->fr.umlv.jbucks.model/Item" source="//@children.0/@children.1" target="//@children.4/@children.0" targetEnd="//@children.0/@children.1/@sourceConnections.0/@children.2" label="//@children.0/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,219" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="117,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" name="Unmodifiable" location="424,644" size="117,40" stereotype="interface" id="fr.umlv.jbucks.model.impl.util/Unmodifiable" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="UnmodifiableCollection" location="434,401" size="173,139" id="fr.umlv.jbucks.model.impl.util/UnmodifiableCollection" runTimeClassModel="iterator(),contains(Ljava.lang.Object;),size(),containsAll(Ljava.util.Collection;),UnmodifiableCollection(Ljava.util.Collection;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="125,90">
+        <children xsi:type="editmodel:MethodEditModel" name="UnmodifiableCollection" id="fr.umlv.jbucks.model.impl.util/UnmodifiableCollection#UnmodifiableCollection(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="contains" id="fr.umlv.jbucks.model.impl.util/UnmodifiableCollection#contains(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="containsAll" id="fr.umlv.jbucks.model.impl.util/UnmodifiableCollection#containsAll(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="iterator" id="fr.umlv.jbucks.model.impl.util/UnmodifiableCollection#iterator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="size" id="fr.umlv.jbucks.model.impl.util/UnmodifiableCollection#size()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="UnmodifiableList" location="236,644" size="138,121" id="fr.umlv.jbucks.model.impl.util/UnmodifiableList" runTimeClassModel="iterator(),size(),UnmodifiableList(Ljava.util.List;),get(I)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="99,72">
+        <children xsi:type="editmodel:MethodEditModel" name="UnmodifiableList" id="fr.umlv.jbucks.model.impl.util/UnmodifiableList#UnmodifiableList(Ljava.util.List;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="get" id="fr.umlv.jbucks.model.impl.util/UnmodifiableList#get(I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="iterator" id="fr.umlv.jbucks.model.impl.util/UnmodifiableList#iterator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="size" id="fr.umlv.jbucks.model.impl.util/UnmodifiableList#size()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="UnmodifiableSet" location="50,644" size="136,139" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSet" runTimeClassModel="iterator(),contains(Ljava.lang.Object;),size(),UnmodifiableSet(Ljava.util.Set;),containsAll(Ljava.util.Collection;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="98,90">
+        <children xsi:type="editmodel:MethodEditModel" name="UnmodifiableSet" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSet#UnmodifiableSet(Ljava.util.Set;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="contains" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSet#contains(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="containsAll" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSet#containsAll(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="iterator" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSet#iterator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="size" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSet#size()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="UnmodifiableSortedSet" location="258,50" size="174,247" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet" runTimeClassModel="tailSet(Ljava.lang.Object;),iterator(),headSet(Ljava.lang.Object;),size(),subSet(Ljava.lang.Object;Ljava.lang.Object;),contains(Ljava.lang.Object;),UnmodifiableSortedSet(Ljava.util.SortedSet;),first(),last(),comparator(),containsAll(Ljava.util.Collection;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="125,198">
+        <children xsi:type="editmodel:MethodEditModel" name="UnmodifiableSortedSet" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#UnmodifiableSortedSet(Ljava.util.SortedSet;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="comparator" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#comparator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="contains" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#contains(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="containsAll" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#containsAll(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="first" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#first()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="headSet" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#headSet(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="iterator" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#iterator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="last" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#last()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="size" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#size()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="subSet" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#subSet(Ljava.lang.Object;Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="tailSet" id="fr.umlv.jbucks.model.impl.util/UnmodifiableSortedSet#tailSet(Ljava.lang.Object;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="ModifiableCollection" location="50,401" size="157,193" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection" runTimeClassModel="iterator(),contains(Ljava.lang.Object;),size(),ModifiableCollection(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Collection;),add(Ljava.lang.Object;),remove(Ljava.lang.Object;),firePropertyEvent(Ljava.lang.Object;I),containsAll(Ljava.util.Collection;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="112,144">
+        <children xsi:type="editmodel:MethodEditModel" name="ModifiableCollection" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#ModifiableCollection(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="add" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#add(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="contains" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#contains(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="containsAll" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#containsAll(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="firePropertyEvent" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#firePropertyEvent(Ljava.lang.Object;I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="iterator" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#iterator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="remove" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#remove(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="size" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection#size()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection->fr.umlv.jbucks.model.impl/EventManagerImpl" source="//@children.0/@children.7" target="//@children.1/@children.9" targetEnd="//@children.0/@children.7/@sourceConnections.0/@children.2" label="//@children.0/@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="157,57" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,178"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection->fr.umlv.jbucks.model/Item" source="//@children.0/@children.7" target="//@children.4/@children.0" targetEnd="//@children.0/@children.7/@sourceConnections.1/@children.2" label="//@children.0/@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="63,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="63,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection->fr.umlv.jbucks.model/BuckFactory" source="//@children.0/@children.7" target="//@children.4/@children.6" targetEnd="//@children.0/@children.7/@sourceConnections.2/@children.2" label="//@children.0/@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="157,183" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableCollection->fr.umlv.jbucks.model.event/PropertyEvent" source="//@children.0/@children.7" target="//@children.3/@children.0" targetEnd="//@children.0/@children.7/@sourceConnections.3/@children.2" label="//@children.0/@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="157,183" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="ModifiableSortedSet" location="50,50" size="158,301" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet" runTimeClassModel="iterator(),tailSet(Ljava.lang.Object;),size(),contains(Ljava.lang.Object;),first(),ModifiableSortedSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.SortedSet;),headSet(Ljava.lang.Object;),subSet(Ljava.lang.Object;Ljava.lang.Object;),last(),add(Ljava.lang.Object;),remove(Ljava.lang.Object;),firePropertyEvent(Ljava.lang.Object;I),comparator(),containsAll(Ljava.util.Collection;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="112,252">
+        <children xsi:type="editmodel:MethodEditModel" name="ModifiableSortedSet" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#ModifiableSortedSet(Lfr.umlv.jbucks.model.Item;Ljava.lang.Class;Ljava.lang.String;Ljava.util.SortedSet;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="add" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#add(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="comparator" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#comparator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="contains" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#contains(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="containsAll" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#containsAll(Ljava.util.Collection;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="firePropertyEvent" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#firePropertyEvent(Ljava.lang.Object;I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="first" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#first()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="headSet" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#headSet(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="iterator" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#iterator()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="last" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#last()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="remove" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#remove(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="size" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#size()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="subSet" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#subSet(Ljava.lang.Object;Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="tailSet" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet#tailSet(Ljava.lang.Object;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet->fr.umlv.jbucks.model.impl/EventManagerImpl" source="//@children.0/@children.8" target="//@children.1/@children.9" targetEnd="//@children.0/@children.8/@sourceConnections.0/@children.2" label="//@children.0/@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="158,265" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,35"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet->fr.umlv.jbucks.model/Item" source="//@children.0/@children.8" target="//@children.4/@children.0" targetEnd="//@children.0/@children.8/@sourceConnections.1/@children.2" label="//@children.0/@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="63,301" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="63,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet->fr.umlv.jbucks.model/BuckFactory" source="//@children.0/@children.8" target="//@children.4/@children.6" targetEnd="//@children.0/@children.8/@sourceConnections.2/@children.2" label="//@children.0/@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="158,291" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util/ModifiableSortedSet->fr.umlv.jbucks.model.event/PropertyEvent" source="//@children.0/@children.8" target="//@children.3/@children.0" targetEnd="//@children.0/@children.8/@sourceConnections.3/@children.2" label="//@children.0/@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="158,291" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util->fr.umlv.jbucks.model" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,831" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="626,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl.util->fr.umlv.jbucks.model.impl" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="648,512" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,306"/>
+    </sourceConnections>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.0/@sourceConnections.1" name="fr.umlv.jbucks.model.impl" location="1140,240" size="698,1052" id="fr.umlv.jbucks.model.impl">
+    <children xsi:type="editmodel:ClassEditModel" name="ItemImpl" location="410,484" size="127,157" id="fr.umlv.jbucks.model.impl/ItemImpl" runTimeClassModel="getUserDataValue(Ljava.lang.String;),removeAtIndex(I[Ljava.lang.Object;),datas,getUserDataKeys(),setUserData(Ljava.lang.String;Ljava.lang.Object;),removeUserData(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="76,18">
+        <children xsi:type="editmodel:AttributeEditModel" name="datas" id="fr.umlv.jbucks.model.impl/ItemImpl#datas"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,90">
+        <children xsi:type="editmodel:MethodEditModel" name="getUserDataKeys" id="fr.umlv.jbucks.model.impl/ItemImpl#getUserDataKeys()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getUserDataValue" id="fr.umlv.jbucks.model.impl/ItemImpl#getUserDataValue(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="removeAtIndex" id="fr.umlv.jbucks.model.impl/ItemImpl#removeAtIndex(I[Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="removeUserData" id="fr.umlv.jbucks.model.impl/ItemImpl#removeUserData(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setUserData" id="fr.umlv.jbucks.model.impl/ItemImpl#setUserData(Ljava.lang.String;Ljava.lang.Object;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="BookImpl" location="50,727" size="124,157" id="fr.umlv.jbucks.model.impl/BookImpl" runTimeClassModel="getName(),toString(),BookImpl(Ljava.lang.String;Lfr.umlv.jbucks.model.Category;),setName(Ljava.lang.String;),getRootCategory(),getAccounts()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="101,108">
+        <children xsi:type="editmodel:MethodEditModel" name="BookImpl" id="fr.umlv.jbucks.model.impl/BookImpl#BookImpl(Ljava.lang.String;Lfr.umlv.jbucks.model.Category;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getAccounts" id="fr.umlv.jbucks.model.impl/BookImpl#getAccounts()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.umlv.jbucks.model.impl/BookImpl#getName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getRootCategory" id="fr.umlv.jbucks.model.impl/BookImpl#getRootCategory()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setName" id="fr.umlv.jbucks.model.impl/BookImpl#setName(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.umlv.jbucks.model.impl/BookImpl#toString()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BookImpl->fr.umlv.jbucks.model/Category" source="//@children.1/@children.1" target="//@children.4/@children.8" targetEnd="//@children.1/@children.1/@sourceConnections.0/@children.2" label="//@children.1/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="114,157" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="CategoryImpl" location="234,484" size="126,193" id="fr.umlv.jbucks.model.impl/CategoryImpl" runTimeClassModel="getName(),toString(),getParent(),setName(Ljava.lang.String;),setDescription(Ljava.lang.String;),CategoryImpl(Lfr.umlv.jbucks.model.Category;Ljava.lang.String;),getDescription(),getSubCategories()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="103,144">
+        <children xsi:type="editmodel:MethodEditModel" name="CategoryImpl" id="fr.umlv.jbucks.model.impl/CategoryImpl#CategoryImpl(Lfr.umlv.jbucks.model.Category;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="fr.umlv.jbucks.model.impl/CategoryImpl#getDescription()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.umlv.jbucks.model.impl/CategoryImpl#getName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getParent" id="fr.umlv.jbucks.model.impl/CategoryImpl#getParent()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getSubCategories" id="fr.umlv.jbucks.model.impl/CategoryImpl#getSubCategories()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setDescription" id="fr.umlv.jbucks.model.impl/CategoryImpl#setDescription(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setName" id="fr.umlv.jbucks.model.impl/CategoryImpl#setName(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.umlv.jbucks.model.impl/CategoryImpl#toString()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/CategoryImpl->fr.umlv.jbucks.model/Category" source="//@children.1/@children.2" target="//@children.4/@children.8" targetEnd="//@children.1/@children.2/@sourceConnections.0/@children.2" label="//@children.1/@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="103,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="22,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="PartyImpl" location="224,727" size="97,157" id="fr.umlv.jbucks.model.impl/PartyImpl" runTimeClassModel="hashCode(),getName(),toString(),equals(Ljava.lang.Object;),PartyImpl(Ljava.lang.String;),setName(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="71,108">
+        <children xsi:type="editmodel:MethodEditModel" name="PartyImpl" id="fr.umlv.jbucks.model.impl/PartyImpl#PartyImpl(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="equals" id="fr.umlv.jbucks.model.impl/PartyImpl#equals(Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.umlv.jbucks.model.impl/PartyImpl#getName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="fr.umlv.jbucks.model.impl/PartyImpl#hashCode()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setName" id="fr.umlv.jbucks.model.impl/PartyImpl#setName(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.umlv.jbucks.model.impl/PartyImpl#toString()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="AccountImpl" location="525,727" size="118,103" id="fr.umlv.jbucks.model.impl/AccountImpl" runTimeClassModel="AccountImpl(Lfr.umlv.jbucks.model.Book;Ljava.lang.String;),getBook(),getTransactions()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="95,54">
+        <children xsi:type="editmodel:MethodEditModel" name="AccountImpl" id="fr.umlv.jbucks.model.impl/AccountImpl#AccountImpl(Lfr.umlv.jbucks.model.Book;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getBook" id="fr.umlv.jbucks.model.impl/AccountImpl#getBook()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getTransactions" id="fr.umlv.jbucks.model.impl/AccountImpl#getTransactions()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/AccountImpl->fr.umlv.jbucks.model/Book" source="//@children.1/@children.4" target="//@children.4/@children.3" targetEnd="//@children.1/@children.4/@sourceConnections.0/@children.2" label="//@children.1/@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,103" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="124,10"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="ExternalPartyImpl" location="50,934" size="144,67" id="fr.umlv.jbucks.model.impl/ExternalPartyImpl" runTimeClassModel="ExternalPartyImpl(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,18">
+        <children xsi:type="editmodel:MethodEditModel" name="ExternalPartyImpl" id="fr.umlv.jbucks.model.impl/ExternalPartyImpl#ExternalPartyImpl(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="SplitImpl" location="371,727" size="104,139" id="fr.umlv.jbucks.model.impl/SplitImpl" runTimeClassModel="SplitImpl(Lfr.umlv.jbucks.model.Party;JLjava.util.Currency;),toString(),getCurrency(),getParty(),getAmount()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="81,90">
+        <children xsi:type="editmodel:MethodEditModel" name="SplitImpl" id="fr.umlv.jbucks.model.impl/SplitImpl#SplitImpl(Lfr.umlv.jbucks.model.Party;JLjava.util.Currency;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getAmount" id="fr.umlv.jbucks.model.impl/SplitImpl#getAmount()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getCurrency" id="fr.umlv.jbucks.model.impl/SplitImpl#getCurrency()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getParty" id="fr.umlv.jbucks.model.impl/SplitImpl#getParty()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.umlv.jbucks.model.impl/SplitImpl#toString()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/SplitImpl->fr.umlv.jbucks.model/Party" source="//@children.1/@children.6" target="//@children.4/@children.4" targetEnd="//@children.1/@children.6/@sourceConnections.0/@children.2" label="//@children.1/@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="98,139" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="5,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="TransactionImpl" location="50,484" size="134,193" id="fr.umlv.jbucks.model.impl/TransactionImpl" runTimeClassModel="toString(),setCategory(Lfr.umlv.jbucks.model.Category;),getSplits(),getCategory(),TransactionImpl(JLjava.util.List;),getDate(),setDescription(Ljava.lang.String;),getDescription()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="95,144">
+        <children xsi:type="editmodel:MethodEditModel" name="TransactionImpl" id="fr.umlv.jbucks.model.impl/TransactionImpl#TransactionImpl(JLjava.util.List;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getCategory" id="fr.umlv.jbucks.model.impl/TransactionImpl#getCategory()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getDate" id="fr.umlv.jbucks.model.impl/TransactionImpl#getDate()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="fr.umlv.jbucks.model.impl/TransactionImpl#getDescription()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getSplits" id="fr.umlv.jbucks.model.impl/TransactionImpl#getSplits()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setCategory" id="fr.umlv.jbucks.model.impl/TransactionImpl#setCategory(Lfr.umlv.jbucks.model.Category;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setDescription" id="fr.umlv.jbucks.model.impl/TransactionImpl#setDescription(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.umlv.jbucks.model.impl/TransactionImpl#toString()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/TransactionImpl->fr.umlv.jbucks.model.impl.util/BucksCollections" source="//@children.1/@children.7" target="//@children.0/@children.1" targetEnd="//@children.1/@children.7/@sourceConnections.0/@children.2" label="//@children.1/@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="146,219"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/TransactionImpl->fr.umlv.jbucks.model/Category" source="//@children.1/@children.7" target="//@children.4/@children.8" targetEnd="//@children.1/@children.7/@sourceConnections.1/@children.2" label="//@children.1/@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="124,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Interceptor" location="50,138" size="106,85" id="fr.umlv.jbucks.model.impl/Interceptor" runTimeClassModel="Interceptor(Ljava.lang.Object;Ljava.lang.Class;),invoke(Ljava.lang.Object;Ljava.lang.reflect.Method;[Ljava.lang.Object;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="74,36">
+        <children xsi:type="editmodel:MethodEditModel" name="Interceptor" id="fr.umlv.jbucks.model.impl/Interceptor#Interceptor(Ljava.lang.Object;Ljava.lang.Class;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="invoke" id="fr.umlv.jbucks.model.impl/Interceptor#invoke(Ljava.lang.Object;Ljava.lang.reflect.Method;[Ljava.lang.Object;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/Interceptor->fr.umlv.jbucks.model.impl/EventManagerImpl" source="//@children.1/@children.8" target="//@children.1/@children.9" targetEnd="//@children.1/@children.8/@sourceConnections.0/@children.2" label="//@children.1/@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="106,42" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,130"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/Interceptor->fr.umlv.jbucks.model.impl.util/BucksCollections" source="//@children.1/@children.8" target="//@children.0/@children.1" targetEnd="//@children.1/@children.8/@sourceConnections.1/@children.2" label="//@children.1/@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="136,229"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/Interceptor->fr.umlv.jbucks.model/BuckFactory" source="//@children.1/@children.8" target="//@children.4/@children.6" targetEnd="//@children.1/@children.8/@sourceConnections.2/@children.2" label="//@children.1/@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,85" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="135,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/Interceptor->fr.umlv.jbucks.model.event/PropertyEvent" source="//@children.1/@children.8" target="//@children.3/@children.0" targetEnd="//@children.1/@children.8/@sourceConnections.3/@children.2" label="//@children.1/@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.1/@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="96,85" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.10/@sourceConnections.0 //@children.0/@children.0/@sourceConnections.0 //@children.0/@children.7/@sourceConnections.0 //@children.0/@children.8/@sourceConnections.0 //@children.1/@children.8/@sourceConnections.0" name="EventManagerImpl" location="322,50" size="148,236" id="fr.umlv.jbucks.model.impl/EventManagerImpl" runTimeClassModel="removeListener(Ljava.lang.Class;Ljava.lang.String;Lfr.umlv.jbucks.model.event.PropertyListener;),firePropertyEvent(Ljava.lang.Class;Lfr.umlv.jbucks.model.event.PropertyEvent;),addListener(Ljava.lang.Class;Ljava.lang.String;ILfr.umlv.jbucks.model.event.PropertyListener;),fr.umlv.jbucks.model.impl.EventManagerImpl.Entry">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,54">
+        <children xsi:type="editmodel:MethodEditModel" name="addListener" id="fr.umlv.jbucks.model.impl/EventManagerImpl#addListener(Ljava.lang.Class;Ljava.lang.String;ILfr.umlv.jbucks.model.event.PropertyListener;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="firePropertyEvent" id="fr.umlv.jbucks.model.impl/EventManagerImpl#firePropertyEvent(Ljava.lang.Class;Lfr.umlv.jbucks.model.event.PropertyEvent;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="removeListener" id="fr.umlv.jbucks.model.impl/EventManagerImpl#removeListener(Ljava.lang.Class;Ljava.lang.String;Lfr.umlv.jbucks.model.event.PropertyListener;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="84,123">
+        <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@children.9/@sourceConnections.0" name="Entry" location="1599,423" size="84,121" id="fr.umlv.jbucks.model.impl/EventManagerImpl$Entry" runTimeClassModel="add(ILfr.umlv.jbucks.model.event.PropertyListener;),remove(Lfr.umlv.jbucks.model.event.PropertyListener;),fire(Lfr.umlv.jbucks.model.event.PropertyEvent;),Entry()">
+          <children xsi:type="editmodel:CompartmentEditModel"/>
+          <children xsi:type="editmodel:CompartmentEditModel" size="61,72">
+            <children xsi:type="editmodel:MethodEditModel" name="Entry" id="fr.umlv.jbucks.model.impl/EventManagerImpl$Entry#Entry()"/>
+            <children xsi:type="editmodel:MethodEditModel" name="add" id="fr.umlv.jbucks.model.impl/EventManagerImpl$Entry#add(ILfr.umlv.jbucks.model.event.PropertyListener;)"/>
+            <children xsi:type="editmodel:MethodEditModel" name="fire" id="fr.umlv.jbucks.model.impl/EventManagerImpl$Entry#fire(Lfr.umlv.jbucks.model.event.PropertyEvent;)"/>
+            <children xsi:type="editmodel:MethodEditModel" name="remove" id="fr.umlv.jbucks.model.impl/EventManagerImpl$Entry#remove(Lfr.umlv.jbucks.model.event.PropertyListener;)"/>
+          </children>
+          <children xsi:type="editmodel:CompartmentEditModel"/>
+          <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+        </children>
+      </children>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/EventManagerImpl->fr.umlv.jbucks.model.impl/EventManagerImpl$Entry" source="//@children.1/@children.9" target="//@children.1/@children.9/@children.2/@children.0" targetEnd="//@children.1/@children.9/@sourceConnections.0/@children.2" label="//@children.1/@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="148,226" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/EventManagerImpl->fr.umlv.jbucks.model.event/PropertyListener" source="//@children.1/@children.9" target="//@children.3/@children.1" targetEnd="//@children.1/@children.9/@sourceConnections.1/@children.2" label="//@children.1/@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="138,236" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/EventManagerImpl->fr.umlv.jbucks.model.event/PropertyEvent" source="//@children.1/@children.9" target="//@children.3/@children.0" targetEnd="//@children.1/@children.9/@sourceConnections.2/@children.2" label="//@children.1/@children.9/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@children.9/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="138,236" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="BuckFactoryImpl" location="535,241" size="143,193" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl" runTimeClassModel="createCategory(Lfr.umlv.jbucks.model.Category;Ljava.lang.String;),createExternalParty(Ljava.lang.String;),createAccount(Lfr.umlv.jbucks.model.Book;Ljava.lang.String;),createBook(Ljava.lang.String;),createSplit(Lfr.umlv.jbucks.model.Party;JLjava.util.Currency;),createTransaction(JLjava.util.List;),getEventManagerImpl(),getEventManager()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="120,144">
+        <children xsi:type="editmodel:MethodEditModel" name="createAccount" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#createAccount(Lfr.umlv.jbucks.model.Book;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createBook" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#createBook(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createCategory" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#createCategory(Lfr.umlv.jbucks.model.Category;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createExternalParty" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#createExternalParty(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createSplit" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#createSplit(Lfr.umlv.jbucks.model.Party;JLjava.util.Currency;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createTransaction" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#createTransaction(JLjava.util.List;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getEventManager" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#getEventManager()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getEventManagerImpl" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl#getEventManagerImpl()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model.impl/EventManagerImpl" source="//@children.1/@children.10" target="//@children.1/@children.9" targetEnd="//@children.1/@children.10/@sourceConnections.0/@children.2" label="//@children.1/@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,22" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="148,213"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/Book" source="//@children.1/@children.10" target="//@children.4/@children.3" targetEnd="//@children.1/@children.10/@sourceConnections.1/@children.2" label="//@children.1/@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="124,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/Category" source="//@children.1/@children.10" target="//@children.4/@children.8" targetEnd="//@children.1/@children.10/@sourceConnections.2/@children.2" label="//@children.1/@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="126,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/Party" source="//@children.1/@children.10" target="//@children.4/@children.4" targetEnd="//@children.1/@children.10/@sourceConnections.3/@children.2" label="//@children.1/@children.10/@sourceConnections.3/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="9,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="80,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/Account" source="//@children.1/@children.10" target="//@children.4/@children.9" targetEnd="//@children.1/@children.10/@sourceConnections.4/@children.2" label="//@children.1/@children.10/@sourceConnections.4/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="118,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/ExternalParty" source="//@children.1/@children.10" target="//@children.4/@children.1" targetEnd="//@children.1/@children.10/@sourceConnections.5/@children.2" label="//@children.1/@children.10/@sourceConnections.5/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,183" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="110,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/Split" source="//@children.1/@children.10" target="//@children.4/@children.2" targetEnd="//@children.1/@children.10/@sourceConnections.6/@children.2" label="//@children.1/@children.10/@sourceConnections.6/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="104,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/Transaction" source="//@children.1/@children.10" target="//@children.4/@children.5" targetEnd="//@children.1/@children.10/@sourceConnections.7/@children.2" label="//@children.1/@children.10/@sourceConnections.7/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="42,193" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="69,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl/BuckFactoryImpl->fr.umlv.jbucks.model/EventManager" source="//@children.1/@children.10" target="//@children.4/@children.7" targetEnd="//@children.1/@children.10/@sourceConnections.8/@children.2" label="//@children.1/@children.10/@sourceConnections.8/@children.0" sourceEnd="//@children.1/@children.10/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,43" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="124,51"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl->fr.umlv.jbucks.model" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,212" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="987,591"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl->fr.umlv.jbucks.model.event" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="490,1052" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.impl->fr.umlv.jbucks.model.impl.util" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,302" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="648,532"/>
+    </sourceConnections>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="fr.umlv.jbucks.test" location="50,534" size="143,107" id="fr.umlv.jbucks.test">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.test->fr.umlv.jbucks.model" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="41,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,53" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,193"/>
+    </sourceConnections>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.1" name="fr.umlv.jbucks.model.event" location="1500,1420" size="261,538" id="fr.umlv.jbucks.model.event">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@children.1/@sourceConnections.0 //@children.0/@children.0/@sourceConnections.3 //@children.0/@children.7/@sourceConnections.3 //@children.0/@children.8/@sourceConnections.3 //@children.1/@children.8/@sourceConnections.3 //@children.1/@children.9/@sourceConnections.2" name="PropertyEvent" location="50,50" size="191,265" id="fr.umlv.jbucks.model.event/PropertyEvent" runTimeClassModel="PropertyEvent(Lfr.umlv.jbucks.model.Item;Ljava.lang.String;I[Ljava.lang.Object;),tYPE_PROPERTY_ADDED,tYPE_PROPERTY_REMOVED,getPropertyName(),toString(),tYPE_PROPERTY_CHANGED,getSubIndicies(),getItem(),getEventType(),PropertyEvent(Lfr.umlv.jbucks.model.Item;Ljava.lang.String;),PropertyEvent(Lfr.umlv.jbucks.model.Item;Ljava.lang.String;I[Ljava.lang.Object;[I),getSubItems()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="168,54">
+        <children xsi:type="editmodel:AttributeEditModel" name="tYPE_PROPERTY_ADDED" id="fr.umlv.jbucks.model.event/PropertyEvent#tYPE_PROPERTY_ADDED"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="tYPE_PROPERTY_CHANGED" id="fr.umlv.jbucks.model.event/PropertyEvent#tYPE_PROPERTY_CHANGED"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="tYPE_PROPERTY_REMOVED" id="fr.umlv.jbucks.model.event/PropertyEvent#tYPE_PROPERTY_REMOVED"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="103,162">
+        <children xsi:type="editmodel:MethodEditModel" name="PropertyEvent" id="fr.umlv.jbucks.model.event/PropertyEvent#PropertyEvent(Lfr.umlv.jbucks.model.Item;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="PropertyEvent" id="fr.umlv.jbucks.model.event/PropertyEvent#PropertyEvent(Lfr.umlv.jbucks.model.Item;Ljava.lang.String;I[Ljava.lang.Object;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="PropertyEvent" id="fr.umlv.jbucks.model.event/PropertyEvent#PropertyEvent(Lfr.umlv.jbucks.model.Item;Ljava.lang.String;I[Ljava.lang.Object;[I)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getEventType" id="fr.umlv.jbucks.model.event/PropertyEvent#getEventType()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getItem" id="fr.umlv.jbucks.model.event/PropertyEvent#getItem()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getPropertyName" id="fr.umlv.jbucks.model.event/PropertyEvent#getPropertyName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getSubIndicies" id="fr.umlv.jbucks.model.event/PropertyEvent#getSubIndicies()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getSubItems" id="fr.umlv.jbucks.model.event/PropertyEvent#getSubItems()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.umlv.jbucks.model.event/PropertyEvent#toString()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.event/PropertyEvent->fr.umlv.jbucks.model/Item" source="//@children.3/@children.0" target="//@children.4/@children.0" targetEnd="//@children.3/@children.0/@sourceConnections.0/@children.2" label="//@children.3/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,215" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="127,48"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.9/@sourceConnections.1 //@children.4/@children.7/@sourceConnections.0" name="PropertyListener" location="50,409" size="139,78" stereotype="interface" id="fr.umlv.jbucks.model.event/PropertyListener" runTimeClassModel="propertyChanged(Lfr.umlv.jbucks.model.event.PropertyEvent;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="101,18">
+        <children xsi:type="editmodel:MethodEditModel" name="propertyChanged" id="fr.umlv.jbucks.model.event/PropertyListener#propertyChanged(Lfr.umlv.jbucks.model.event.PropertyEvent;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.event/PropertyListener->fr.umlv.jbucks.model.event/PropertyEvent" source="//@children.3/@children.1" target="//@children.3/@children.0" targetEnd="//@children.3/@children.1/@sourceConnections.0/@children.2" label="//@children.3/@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="69,265"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model.event->fr.umlv.jbucks.model" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,66" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="988,1092"/>
+    </sourceConnections>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.2/@sourceConnections.0" name="fr.umlv.jbucks.model" location="363,394" size="988,1198" id="fr.umlv.jbucks.model">
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.1 //@children.0/@children.1/@sourceConnections.0 //@children.0/@children.7/@sourceConnections.1 //@children.0/@children.8/@sourceConnections.1 //@children.3/@children.0/@sourceConnections.0" name="Item" location="50,1015" size="127,132" stereotype="interface" id="fr.umlv.jbucks.model/Item" runTimeClassModel="getUserDataValue(Ljava.lang.String;),getUserDataKeys(),removeUserData(Ljava.lang.String;),setUserData(Ljava.lang.String;Ljava.lang.Object;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="104,72">
+        <children xsi:type="editmodel:MethodEditModel" name="getUserDataKeys" id="fr.umlv.jbucks.model/Item#getUserDataKeys()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getUserDataValue" id="fr.umlv.jbucks.model/Item#getUserDataValue(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="removeUserData" id="fr.umlv.jbucks.model/Item#removeUserData(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setUserData" id="fr.umlv.jbucks.model/Item#setUserData(Ljava.lang.String;Ljava.lang.Object;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.10/@sourceConnections.5 //@children.4/@children.6/@sourceConnections.4" name="ExternalParty" location="50,345" size="120,40" stereotype="interface" id="fr.umlv.jbucks.model/ExternalParty" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.10/@sourceConnections.6 //@children.4/@children.6/@sourceConnections.5" name="Split" location="593,50" size="104,114" stereotype="interface" id="fr.umlv.jbucks.model/Split" runTimeClassModel="getCurrency(),getParty(),getAmount()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="81,54">
+        <children xsi:type="editmodel:MethodEditModel" name="getAmount" id="fr.umlv.jbucks.model/Split#getAmount()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getCurrency" id="fr.umlv.jbucks.model/Split#getCurrency()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getParty" id="fr.umlv.jbucks.model/Split#getParty()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/Split->fr.umlv.jbucks.model/Party" source="//@children.4/@children.2" target="//@children.4/@children.4" targetEnd="//@children.4/@children.2/@sourceConnections.0/@children.2" label="//@children.4/@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="104,104" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.4/@sourceConnections.0 //@children.1/@children.10/@sourceConnections.1 //@children.4/@children.9/@sourceConnections.0 //@children.4/@children.6/@sourceConnections.0" name="Book" location="373,833" size="124,132" stereotype="interface" id="fr.umlv.jbucks.model/Book" runTimeClassModel="getName(),setName(Ljava.lang.String;),getRootCategory(),getAccounts()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+        <children xsi:type="editmodel:MethodEditModel" name="getAccounts" id="fr.umlv.jbucks.model/Book#getAccounts()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.umlv.jbucks.model/Book#getName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getRootCategory" id="fr.umlv.jbucks.model/Book#getRootCategory()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setName" id="fr.umlv.jbucks.model/Book#setName(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/Book->fr.umlv.jbucks.model/Category" source="//@children.4/@children.3" target="//@children.4/@children.8" targetEnd="//@children.4/@children.3/@sourceConnections.0/@children.2" label="//@children.4/@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="124,62" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,105"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.6/@sourceConnections.0 //@children.1/@children.10/@sourceConnections.3 //@children.4/@children.2/@sourceConnections.0 //@children.4/@children.6/@sourceConnections.2" name="Party" location="812,216" size="90,96" stereotype="interface" id="fr.umlv.jbucks.model/Party" runTimeClassModel="getName(),setName(Ljava.lang.String;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="67,36">
+        <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.umlv.jbucks.model/Party#getName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setName" id="fr.umlv.jbucks.model/Party#setName(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.10/@sourceConnections.7 //@children.4/@children.6/@sourceConnections.6" name="Transaction" location="856,580" size="112,168" stereotype="interface" id="fr.umlv.jbucks.model/Transaction" runTimeClassModel="setCategory(Lfr.umlv.jbucks.model.Category;),getSplits(),getCategory(),getDate(),setDescription(Ljava.lang.String;),getDescription()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="89,108">
+        <children xsi:type="editmodel:MethodEditModel" name="getCategory" id="fr.umlv.jbucks.model/Transaction#getCategory()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getDate" id="fr.umlv.jbucks.model/Transaction#getDate()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="fr.umlv.jbucks.model/Transaction#getDescription()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getSplits" id="fr.umlv.jbucks.model/Transaction#getSplits()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setCategory" id="fr.umlv.jbucks.model/Transaction#setCategory(Lfr.umlv.jbucks.model.Category;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setDescription" id="fr.umlv.jbucks.model/Transaction#setDescription(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/Transaction->fr.umlv.jbucks.model/Category" source="//@children.4/@children.5" target="//@children.4/@children.8" targetEnd="//@children.4/@children.5/@sourceConnections.0/@children.2" label="//@children.4/@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,158" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="116,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.2 //@children.0/@children.7/@sourceConnections.2 //@children.0/@children.8/@sourceConnections.2 //@children.1/@children.8/@sourceConnections.2" name="BuckFactory" location="461,437" size="135,211" id="fr.umlv.jbucks.model/BuckFactory" runTimeClassModel="createCategory(Lfr.umlv.jbucks.model.Category;Ljava.lang.String;),createExternalParty(Ljava.lang.String;),createAccount(Lfr.umlv.jbucks.model.Book;Ljava.lang.String;),createBook(Ljava.lang.String;),createSplit(Lfr.umlv.jbucks.model.Party;JLjava.util.Currency;),createTransaction(JLjava.util.List;),setFactory(Lfr.umlv.jbucks.model.BuckFactory;),getEventManager(),getFactory()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="112,162">
+        <children xsi:type="editmodel:MethodEditModel" name="createAccount" id="fr.umlv.jbucks.model/BuckFactory#createAccount(Lfr.umlv.jbucks.model.Book;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createBook" id="fr.umlv.jbucks.model/BuckFactory#createBook(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createCategory" id="fr.umlv.jbucks.model/BuckFactory#createCategory(Lfr.umlv.jbucks.model.Category;Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createExternalParty" id="fr.umlv.jbucks.model/BuckFactory#createExternalParty(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createSplit" id="fr.umlv.jbucks.model/BuckFactory#createSplit(Lfr.umlv.jbucks.model.Party;JLjava.util.Currency;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="createTransaction" id="fr.umlv.jbucks.model/BuckFactory#createTransaction(JLjava.util.List;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getEventManager" id="fr.umlv.jbucks.model/BuckFactory#getEventManager()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getFactory" id="fr.umlv.jbucks.model/BuckFactory#getFactory()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setFactory" id="fr.umlv.jbucks.model/BuckFactory#setFactory(Lfr.umlv.jbucks.model.BuckFactory;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/Book" source="//@children.4/@children.6" target="//@children.4/@children.3" targetEnd="//@children.4/@children.6/@sourceConnections.0/@children.2" label="//@children.4/@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="17,211" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="105,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/Category" source="//@children.4/@children.6" target="//@children.4/@children.8" targetEnd="//@children.4/@children.6/@sourceConnections.1/@children.2" label="//@children.4/@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="125,211" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/Party" source="//@children.4/@children.6" target="//@children.4/@children.4" targetEnd="//@children.4/@children.6/@sourceConnections.2/@children.2" label="//@children.4/@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="135,10" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,96"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/Account" source="//@children.4/@children.6" target="//@children.4/@children.9" targetEnd="//@children.4/@children.6/@sourceConnections.3/@children.2" label="//@children.4/@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,201" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="108,0"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/ExternalParty" source="//@children.4/@children.6" target="//@children.4/@children.1" targetEnd="//@children.4/@children.6/@sourceConnections.4/@children.2" label="//@children.4/@children.6/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="110,40"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/Split" source="//@children.4/@children.6" target="//@children.4/@children.2" targetEnd="//@children.4/@children.6/@sourceConnections.5/@children.2" label="//@children.4/@children.6/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="125,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,104"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/Transaction" source="//@children.4/@children.6" target="//@children.4/@children.5" targetEnd="//@children.4/@children.6/@sourceConnections.6/@children.2" label="//@children.4/@children.6/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="135,176" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,33"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/BuckFactory->fr.umlv.jbucks.model/EventManager" source="//@children.4/@children.6" target="//@children.4/@children.7" targetEnd="//@children.4/@children.6/@sourceConnections.7/@children.2" label="//@children.4/@children.6/@sourceConnections.7/@children.0" sourceEnd="//@children.4/@children.6/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="114,96"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.10/@sourceConnections.8 //@children.4/@children.6/@sourceConnections.7" name="EventManager" location="246,79" size="124,96" stereotype="interface" id="fr.umlv.jbucks.model/EventManager" runTimeClassModel="removeListener(Ljava.lang.Class;Ljava.lang.String;Lfr.umlv.jbucks.model.event.PropertyListener;),addListener(Ljava.lang.Class;Ljava.lang.String;ILfr.umlv.jbucks.model.event.PropertyListener;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+        <children xsi:type="editmodel:MethodEditModel" name="addListener" id="fr.umlv.jbucks.model/EventManager#addListener(Ljava.lang.Class;Ljava.lang.String;ILfr.umlv.jbucks.model.event.PropertyListener;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="removeListener" id="fr.umlv.jbucks.model/EventManager#removeListener(Ljava.lang.Class;Ljava.lang.String;Lfr.umlv.jbucks.model.event.PropertyListener;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/EventManager->fr.umlv.jbucks.model.event/PropertyListener" source="//@children.4/@children.7" target="//@children.3/@children.1" targetEnd="//@children.4/@children.7/@sourceConnections.0/@children.2" label="//@children.4/@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="114,96" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@children.3/@sourceConnections.0 //@children.1/@children.1/@sourceConnections.0 //@children.1/@children.2/@sourceConnections.0 //@children.1/@children.7/@sourceConnections.1 //@children.1/@children.10/@sourceConnections.2 //@children.4/@children.5/@sourceConnections.0 //@children.4/@children.6/@sourceConnections.1" name="Category" location="663,790" size="126,168" stereotype="interface" id="fr.umlv.jbucks.model/Category" runTimeClassModel="getName(),getParent(),setName(Ljava.lang.String;),setDescription(Ljava.lang.String;),getDescription(),getSubCategories()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="103,108">
+        <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="fr.umlv.jbucks.model/Category#getDescription()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.umlv.jbucks.model/Category#getName()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getParent" id="fr.umlv.jbucks.model/Category#getParent()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getSubCategories" id="fr.umlv.jbucks.model/Category#getSubCategories()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setDescription" id="fr.umlv.jbucks.model/Category#setDescription(Ljava.lang.String;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setName" id="fr.umlv.jbucks.model/Category#setName(Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@children.10/@sourceConnections.4 //@children.4/@children.6/@sourceConnections.3" name="Account" location="128,686" size="118,96" stereotype="interface" id="fr.umlv.jbucks.model/Account" runTimeClassModel="getBook(),getTransactions()">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="95,36">
+        <children xsi:type="editmodel:MethodEditModel" name="getBook" id="fr.umlv.jbucks.model/Account#getBook()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getTransactions" id="fr.umlv.jbucks.model/Account#getTransactions()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model/Account->fr.umlv.jbucks.model/Book" source="//@children.4/@children.9" target="//@children.4/@children.3" targetEnd="//@children.4/@children.9/@sourceConnections.0/@children.2" label="//@children.4/@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+        <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="118,86" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.umlv.jbucks.model->fr.umlv.jbucks.model.event" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="37,11" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="988,1112" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,86"/>
+    </sourceConnections>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="open=fr.umlv.jbucks.model,fr.umlv.jbucks.model.event,fr.umlv.jbucks.model.impl,fr.umlv.jbucks.model.impl.util,fr.umlv.jbucks.test;wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,4 @@
+#Fri Feb 04 12:53:59 CET 2005
+org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8"?>\n<launchPerspectives>\n<launchPerspective configurationType\="org.eclipse.jdt.junit.launchconfig" mode\="debug" perspective\="org.eclipse.jdt.ui.JavaPerspective"/>\n<launchPerspective configurationType\="org.eclipse.jdt.junit.launchconfig" mode\="run" perspective\="org.eclipse.jdt.ui.JavaPerspective"/>\n</launchPerspectives>\n

@@ -1,0 +1,191 @@
+/**
+ * Created on 11 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+
+
+import java.util.Collection;
+
+
+
+import java.util.Iterator;
+
+
+
+public class Person implements Contact{
+    private String firstName;
+    private String lastName;
+    private String address;
+    private String number;
+    
+    public Person(String firstName,String lastName,String address,String number){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+        this.number = number;
+    }
+
+    /**
+     * 
+     * @uml.property name="firstName"
+     */
+    public String getFirstName() {
+        return firstName;
+    }
+
+    /**
+     * 
+     * @uml.property name="lastName"
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    
+    public String getName(){
+        return firstName+lastName;
+    }
+
+    /**
+     * 
+     * @uml.property name="address"
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * 
+     * @uml.property name="number"
+     */
+    public String getNumber() {
+        return number;
+    }
+ 
+    
+    public void setAdress(String address){
+        this.address = address;
+    }
+
+    /**
+     * 
+     * @uml.property name="number"
+     */
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    /**
+     *  
+     * @uml.property name="company"
+     * @uml.associationEnd inverse="person:fr.umlv.td3.Company" multiplicity="(1 -1)"
+     */
+    private Collection company;
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public void setCompany(java.util.Collection value) {
+        company = value;
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public Iterator companyIterator() {
+        return company.iterator();
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public boolean addCompany(fr.umlv.td3.Company element) {
+        return company.add(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public boolean removeCompany(fr.umlv.td3.Company element) {
+        return company.remove(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public boolean isCompanyEmpty() {
+        return company.isEmpty();
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public void clearCompany() {
+        company.clear();
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public boolean containsCompany(fr.umlv.td3.Company element) {
+        return company.contains(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public boolean containsAllCompany(Collection elements) {
+        return company.containsAll(elements);
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public int companySize() {
+        return company.size();
+    }
+
+    /**
+     * 
+     * @uml.property name="company"
+     */
+    public fr.umlv.td3.Company[] companyToArray() {
+        return (fr.umlv.td3.Company[]) company
+            .toArray(new fr.umlv.td3.Company[company.size()]);
+    }
+
+    /**
+     *  
+     * @uml.property name="company1"
+     * @uml.associationEnd inverse="person1:fr.umlv.td3.Company" multiplicity="(0 1)"
+     */
+    private Company company1;
+
+    /**
+     *  
+     * @uml.property name="company1"
+     */
+    public Company getCompany1() {
+        return company1;
+    }
+
+    /**
+     *  
+     * @uml.property name="company1"
+     */
+    public void setCompany1(Company company1) {
+        this.company1 = company1;
+    }
+
+}

@@ -1,0 +1,125 @@
+/**
+ * Created on 18 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+
+
+import java.util.Collection;
+
+
+
+import java.util.List;
+
+
+
+import java.util.Iterator;
+
+
+public class Command {
+
+    /**
+     *  
+     * @uml.property name="list" multiplicity="(0 1)"
+     */
+    private final List list = null;
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public java.util.List getList() {
+        return list;
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public void setList(java.util.List value) {
+        list = value;
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public java.lang.Object getList(int i) {
+        return (java.lang.Object) list.get(i);
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public Iterator listIterator() {
+        return list.iterator();
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public boolean addList(java.lang.Object element) {
+        return list.add(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public boolean removeList(java.lang.Object element) {
+        return list.remove(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public boolean isListEmpty() {
+        return list.isEmpty();
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public void clearList() {
+        list.clear();
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public boolean containsList(java.lang.Object element) {
+        return list.contains(element);
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public boolean containsAllList(Collection elements) {
+        return list.containsAll(elements);
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public int listSize() {
+        return list.size();
+    }
+
+    /**
+     * 
+     * @uml.property name="list"
+     */
+    public java.lang.Object[] listToArray() {
+        return (java.lang.Object[]) list.toArray(new java.lang.Object[list
+            .size()]);
+    }
+
+}

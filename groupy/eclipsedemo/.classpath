@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" sourcepath="src15" kind="lib" path="classes15"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ams"/>
+	<classpathentry sourcepath="ECLIPSE_HOME/plugins/org.eclipse.jdt.source_3.0.0/src/org.junit_3.8.1/junitsrc.zip" kind="var" path="JUNIT_HOME/junit.jar"/>
+	<classpathentry output="test/classes" kind="src" path="test/src"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

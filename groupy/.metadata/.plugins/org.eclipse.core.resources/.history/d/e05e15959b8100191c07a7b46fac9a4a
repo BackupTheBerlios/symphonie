@@ -1,0 +1,25 @@
+/**
+ * Created on 18 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+
+
+import java.util.List;
+
+
+public class Command {
+
+    /**
+     *  
+     * @uml.property name="list" multiplicity="(0 1)"
+     */
+    private final List list;
+    private final Person client;
+    
+    public List getList(){
+        return list;
+    }
+
+}

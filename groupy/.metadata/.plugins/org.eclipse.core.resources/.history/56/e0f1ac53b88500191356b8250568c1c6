@@ -1,0 +1,21 @@
+import java.net.InetAddress;
+
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+
+public class Exo3 {
+
+    public static void displaySpecificity(String host) throws {
+        InetAddress ia = InetAddress.get(host);
+        System.out.println("host name : "ia.getCanonicalHostName()+"\naddress : "+ia.getHostAddress());
+    }
+    
+    public static void main(String[] args) {
+        try{
+            System.out.println(InetAddress.getByName("www.univ-mlv.fr").getHostAddress());
+            System.out.println(InetAddress.getByName("193.55.63.80").getHostName());
+        }catch(Throwable t){t.printStackTrace();}	
+    }
+}

@@ -1,0 +1,37 @@
+/**
+ * Created on 18 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Command {
+
+    private final Map list;
+    
+    private final Person client;
+    
+    public Map getList(){
+        return list;
+    }
+    
+    public Person getClient(){
+        return client;
+    }
+
+    public Command(Map list, Person client) {
+        this.list = list;
+        this.client = client;
+    }
+
+    public Command(Person client){
+        list = new HashMap();
+        this.client = client;
+    }
+    
+}

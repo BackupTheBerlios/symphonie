@@ -1,0 +1,28 @@
+/**
+ * Created on 18 févr. 2005
+ *@author jsie
+ */
+package fr.umlv.td3;
+
+public class Article {
+
+    
+    private final String name;
+    private final int id;
+    
+    public Article(String name, int id) {
+        this.id = id;
+        this.name = name;
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    
+
+}

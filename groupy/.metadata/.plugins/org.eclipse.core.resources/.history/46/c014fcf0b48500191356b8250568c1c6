@@ -1,0 +1,28 @@
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.util.Enumeration;
+
+public class Exo1 {
+
+    public static byte decaleADroite(final byte b,final int n) {
+       
+        return new Integer((b & 0xFF)>>n).byteValue();
+    }
+    
+    public static void displayNetworkInterface() throws SocketException{
+        for(Enumeration<NetworkInterface> e = NetworkInterface.getNetworkInterfaces() ; e.hasMoreElements();){
+            NetworkInterface nif = e.nextElement();
+        }
+    }
+    
+    public static void main(String[] args) {
+       
+        try{
+            displayNetworkInterface();
+        }catch(Exception e){}
+    }
+}

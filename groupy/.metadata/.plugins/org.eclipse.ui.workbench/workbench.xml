@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<window height="761" maximized="true" width="958" x="-326" y="26">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="96" y="26"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.omondo.uml.UMLElementCreationActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
+<coolItem id="com.omondo.uml.docgen.actionSet" itemType="typeToolBarContribution" x="34" y="24"/>
+<coolItem id="com_sysdeo_eclipse_tomcat_actionSet" itemType="typeToolBarContribution" x="88" y="26"/>
+<coolItem id="net.genady.jdk15.actions" itemType="typeToolBarContribution" x="36" y="26"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="112" y="26"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="96" y="26"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="192" y="26"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.omondo.uml.ClassDiagramEditor" itemType="typePlaceholder" x="318" y="26"/>
+<coolItem id="org.eclipse.ant.ui.internal.editor.AntEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="de.byteaction.velocity.editor.Editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState columnWidth0="19" columnWidth1="19" columnWidth2="289" columnWidth3="108" columnWidth4="216" columnWidth5="86" horizontalPosition="0" verticalPosition="0">
+<selection/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.MembersView" partName="Members">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" org.eclipse.jdt.ui.browsing.memberstoeditor="1">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.MembersView.ImportDeclarationFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState org.eclipse.debug.ui.variablesView.SASH_WEIGHTS-0="684" org.eclipse.debug.ui.variablesView.SASH_WEIGHTS-1="315" org.eclipse.debug.ui.variablesView.SASH_WEIGHTS-Length="2"/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element="*.class" isEnabled="false"/>
+<filter element=".*" isEnabled="false"/>
+</filters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.TypesView" partName="Types">
+<viewState org.eclipse.jdt.ui.browsing.typestoeditor="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.TypesView.NonPublicTypeFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.TypesView.InterfaceFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.TypesView.ClassFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState orientation="2" page="1" ratio="500" scroll="false"/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackagesView" partName="Packages">
+<viewState org.eclipse.jdt.ui.PackagesView.viewState="0" org.eclipse.jdt.ui.browsing.packagestoeditor="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.internal.ui.PackagesView.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackagesView.EmptyInnerPackageFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState layout="2" org.eclipse.jdt.ui.packages.linktoeditor="0" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_*$*.class" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.ProjectsView" partName="Projects">
+<viewState org.eclipse.jdt.ui.browsing.projectstoeditor="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.ProjectsView.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter2" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.ProjectsView.NonSharedProjectsFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+<selectedElements>
+<selectedElement selectedElementPath="=eclipsedemo"/>
+</selectedElements>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState>
+<isTrackingSelection value="false"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<actionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<actionSet id="com.omondo.uml.docgen.actionSet"/>
+<actionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<actionSet id="net.genady.jdk15.actions"/>
+<actionSet id="org.eclipse.search.searchActionSet"/>
+<actionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<actionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<actionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<actionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.docgen.actionSet"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<alwaysOnActionSet id="net.genady.jdk15.actions"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.omondo.database.external.DatabaseExplorer"/>
+<show_view_action id="com.omondo.database.external.DatabaseConsoleView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.omondo.database.external.DatabasePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.AnnotateView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ce85c4" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.gef.ui.palette_view" ratio="0.25992063" ratioLeft="262" ratioRight="746" relationship="2" relative="topLeft"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a4488" ratio="0.65898615" ratioLeft="429" ratioRight="222" relationship="4" relative="org.eclipse.gef.ui.palette_view">
+<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="com.omondo.database.external.DatabaseConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.console" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.HistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.15951742" ratioLeft="119" ratioRight="627" relationship="2" relative="org.eclipse.gef.ui.palette_view"/>
+<info folder="true" part="bottomLeft" ratio="0.49923196" ratioLeft="325" ratioRight="326" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.omondo.database.external.DatabaseExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<actionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<actionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<actionSet id="net.genady.jdk15.actions"/>
+<actionSet id="org.eclipse.search.searchActionSet"/>
+<actionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<actionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<actionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<actionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<actionSet id="org.eclipse.ui.NavigateActionSet"/>
+<actionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<actionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<actionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.A_OpenActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.CodingActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<alwaysOnActionSet id="net.genady.jdk15.actions"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="com.omondo.database.external.DatabaseExplorer"/>
+<show_view_action id="com.omondo.database.external.DatabaseConsoleView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="com.omondo.database.external.DatabasePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.21094528" ratioLeft="212" ratioRight="793" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74961597" ratioLeft="488" ratioRight="163" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="com.omondo.database.external.DatabaseConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@bb05de" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="com.omondo.database.external.DatabaseExplorer" ratio="0.49923196" ratioLeft="325" ratioRight="326" relationship="4" relative="left"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.omondo.database.external.DatabasePerspective" id="com.omondo.database.external.DatabasePerspective" label="Database"/>
+<actionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<actionSet id="com.omondo.uml.docgen.actionSet"/>
+<actionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<actionSet id="net.genady.jdk15.actions"/>
+<actionSet id="org.eclipse.search.searchActionSet"/>
+<actionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<actionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<actionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.docgen.actionSet"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<alwaysOnActionSet id="net.genady.jdk15.actions"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="com.omondo.database.external.DatabaseExplorer"/>
+<show_view_action id="com.omondo.database.external.DatabaseConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="com.omondo.database.external.DatabaseConsoleView" removed="true"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.718894" ratioLeft="468" ratioRight="183" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.omondo.database.external.DatabaseConsoleView" label="Database Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@198a35d" ratio="0.75" ratioLeft="567" ratioRight="189" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.5499232" ratioLeft="358" ratioRight="293" relationship="4" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="com.omondo.database.external.DatabaseExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.browsing.JavaBrowsingPerspectiveFactory" id="org.eclipse.jdt.ui.JavaBrowsingPerspective" label="Java Browsing"/>
+<actionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<actionSet id="com.omondo.uml.docgen.actionSet"/>
+<actionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<actionSet id="net.genady.jdk15.actions"/>
+<actionSet id="org.eclipse.search.searchActionSet"/>
+<actionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<actionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<actionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<actionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<actionSet id="org.eclipse.ui.NavigateActionSet"/>
+<actionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<actionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<actionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.docgen.actionSet"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<alwaysOnActionSet id="net.genady.jdk15.actions"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.ProjectsView"/>
+<show_view_action id="org.eclipse.jdt.ui.PackagesView"/>
+<show_view_action id="org.eclipse.jdt.ui.TypesView"/>
+<show_view_action id="org.eclipse.jdt.ui.MembersView"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="com.omondo.database.external.DatabaseExplorer"/>
+<show_view_action id="com.omondo.database.external.DatabaseConsoleView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="com.omondo.database.external.DatabasePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<view id="org.eclipse.jdt.ui.ProjectsView"/>
+<view id="org.eclipse.jdt.ui.PackagesView"/>
+<view id="org.eclipse.jdt.ui.TypesView"/>
+<view id="org.eclipse.jdt.ui.MembersView"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1824d2c">
+<folder activePageID="org.eclipse.jdt.ui.ProjectsView" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.ProjectsView" label="Projects"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1824d2c">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="left" ratio="0.24884793" ratioLeft="162" ratioRight="489" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1824d2c">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74846625" ratioLeft="366" ratioRight="123" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@198a654" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1824d2c">
+<folder activePageID="org.eclipse.jdt.ui.PackagesView" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackagesView" label="Packages"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cfe500" ratio="0.32936507" ratioLeft="249" ratioRight="507" relationship="2" relative="org.eclipse.ui.internal.ViewStack@198a654">
+<folder activePageID="org.eclipse.jdt.ui.TypesView" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.TypesView" label="Types"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@c393a1" ratio="0.4990138" ratioLeft="253" ratioRight="254" relationship="2" relative="org.eclipse.ui.internal.ViewStack@cfe500">
+<folder activePageID="org.eclipse.jdt.ui.MembersView" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.MembersView" label="Members"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<actionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<actionSet id="com.omondo.uml.docgen.actionSet"/>
+<actionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<actionSet id="net.genady.jdk15.actions"/>
+<actionSet id="org.eclipse.search.searchActionSet"/>
+<actionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<actionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<actionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<actionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<actionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<actionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<actionSet id="org.eclipse.ui.NavigateActionSet"/>
+<actionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<actionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<actionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.UMLElementCreationActionSet"/>
+<alwaysOnActionSet id="com.omondo.uml.docgen.actionSet"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<alwaysOnActionSet id="net.genady.jdk15.actions"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.omondo.database.external.DatabaseExplorer"/>
+<show_view_action id="com.omondo.database.external.DatabaseConsoleView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.MonitorsView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<perspective_action id="com.omondo.database.external.DatabasePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.MonitorsView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7488" ratioLeft="468" ratioRight="157" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44871795" ratioLeft="210" ratioRight="258" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="504" ratioRight="504" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/tp_network/src/fr/umlv/java/network/tp7/Exo1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/tp_network/src/fr/umlv/java/network/tp7/Exo1Test.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/tp_network/src15/Exo1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/tp_network/src15/Exo3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/tp_network/src/Exo4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/tp_network/src15/Exo4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/groupy/src/fr/umlv/groupa/Main.java"/>
+</editors>
+<item historyLabel="Exo1.java" index="0">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="Exo1Test.java" index="1">
+<position/>
+</item>
+<item historyLabel="Exo1.java" index="0">
+<position info="not_deleted" x="564" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="0">
+<position info="not_deleted" x="280" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="0">
+<position info="not_deleted" x="357" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="0">
+<position info="not_deleted" x="449" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="0">
+<position info="not_deleted" x="486" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="0">
+<position info="not_deleted" x="483" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="589" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1527" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="799" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1048" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1200" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1287" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1333" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1309" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1309" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="263" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="1011" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="223" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="351" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="1011" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1491" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="1011" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1305" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="1011" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="1009" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="596" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="696" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="696" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="829" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="890" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="768" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="752" y="0"/>
+</item>
+<item historyLabel="Exo3.java" index="3">
+<position info="not_deleted" x="765" y="0"/>
+</item>
+<item historyLabel="Exo1.java" index="2">
+<position info="not_deleted" x="1305" y="0"/>
+</item>
+<item historyLabel="Exo4.java" index="4">
+<position/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position info="not_deleted" x="573" y="0"/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position info="not_deleted" x="338" y="0"/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position info="not_deleted" x="1068" y="0"/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position info="not_deleted" x="1024" y="0"/>
+</item>
+<item historyLabel="Exo4.java" index="5">
+<position info="not_deleted" x="1068" y="0"/>
+</item>
+<item active="true" historyLabel="Main.java" index="6">
+<position info="not_deleted" x="178" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.omondo.uml.ClassDiagramEditor" name="fr.umlv.jbucks.model+fr.umlv.jbucks.model.event+fr.umlv.jbucks.model.impl+fr.umlv.jbucks.model.impl.util+fr.umlv.jbucks.test.ucd" tooltip="td3/src/fr.umlv.jbucks.model+fr.umlv.jbucks.model.event+fr.umlv.jbucks.model.impl+fr.umlv.jbucks.model.impl.util+fr.umlv.jbucks.test.ucd">
+<persistable path="/td3/src/fr.umlv.jbucks.model+fr.umlv.jbucks.model.event+fr.umlv.jbucks.model.impl+fr.umlv.jbucks.model.impl.util+fr.umlv.jbucks.test.ucd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataBaseExample.java" tooltip="database_example/src/fr/umlv/learning/db/DataBaseExample.java">
+<persistable path="/database_example/src/fr/umlv/learning/db/DataBaseExample.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloEclipse.java" tooltip="eclipsedemo/src/fr/umlv/eclipsedemo/HelloEclipse.java">
+<persistable path="/eclipsedemo/src/fr/umlv/eclipsedemo/HelloEclipse.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Company.java" tooltip="td3/src15/fr/umlv/learning/Company.java">
+<persistable path="/td3/src15/fr/umlv/learning/Company.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.omondo.uml.ClassDiagramEditor" name="default diagram.ucd" tooltip="td3/src/default diagram.ucd">
+<persistable path="/td3/src/default diagram.ucd"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Group.class" tooltip="Group">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=eclipsedemo/classes15&lt;(Group.class"/>
+</file>
+</mruList>
+</workbench>

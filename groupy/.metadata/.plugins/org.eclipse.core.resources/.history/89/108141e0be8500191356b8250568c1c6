@@ -1,0 +1,38 @@
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+
+/**
+ * Created on 23 févr. 2005
+ *@author jsie
+ */
+
+public class Exo4 {
+
+    public static void main(String[] args) {
+        try{
+            byte[] receiveBuffer = new byte[10];
+            byte[] buf = "0".getBytes();
+            
+            /*send mode*/
+            DatagramSocket socket = new DatagramSocket();
+            
+            DatagramPacket packet = new DatagramPacket(buf,buf.length,InetAddress.getByName("gaspard"),1030);
+            
+            socket.send(packet);
+            System.out.println("emission du packet  : [ ok ]");
+            
+            /*reception mode*/
+            System.out.println("En attente de reception...");
+            packet.setData(receiveBuffer);
+            
+            socket.receive(packet);
+            
+            String received = new String(receiveBuffer,0,packet.getLength());
+            System.out.println(received);
+            
+        }
+        catch(Throwable e){e.printStackTrace();}
+    }
+}
